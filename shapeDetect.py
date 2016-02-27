@@ -11,7 +11,7 @@ approx = []
 scale = 2
 #camera
 cap = cv2.VideoCapture(0)
-
+print("press q to exit")
 
 # Define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
@@ -83,7 +83,7 @@ while(cap.isOpened()):
         out.write(frame)
         cv2.imshow('frame',frame)
         cv2.imshow('canny',canny)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(1) == 1048689: #if q is pressed
             break
 
 #When everything done, release the capture
