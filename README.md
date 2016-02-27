@@ -8,3 +8,6 @@ http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_instal
 
 # Use
 python shapeDetect.py
+
+# Sources
+https://opencvproject.wordpress.com/projects-files/detection-shape/
